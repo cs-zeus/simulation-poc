@@ -1,0 +1,58 @@
+#my-interactive {
+  background-color: #303A52;
+}
+
+.interactive .line {
+  stroke: #FBFAFA;
+}
+
+.interactive .circle {
+  fill: none;
+  stroke: #FBFAFA;
+  stroke-width: 2px;
+}
+
+.interactive .circle.point {
+  stroke: none;
+}
+
+.interactive .circle.positive {
+  stroke: none;
+  fill: #EB5757;
+}
+
+.interactive .circle.negative {
+  stroke: none;
+  fill: #56CCF2;
+}
+
+.interactive .circle.test-charge {
+  stroke: #FBFAFA;
+  stroke-dasharray: 6;
+  stroke-width: 3px;
+}
+
+.interactive .text {
+  fill: #FBFAFA;
+  stroke: none;
+}
+
+.interactive .text.positive, .interactive .text.negative {
+  fill: #303A52;
+  font-size: 2.5rem;
+}
+
+.interactive .rectangle {
+  stroke: #FBFAFA;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.interactive .path {
+  fill: #FBFAFA;
+}
+
+.interactive .arrow {
+  fill: #FBFAFA;
+  stroke: none;
+}
